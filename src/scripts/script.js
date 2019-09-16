@@ -64,6 +64,9 @@ $(document).ready(function () {
 
         if (scroll > 30) {
             $('footer').hide();
+        }
+
+        if (scroll >= 400) {
             $('#move-down').slideUp(100);
         }
 
