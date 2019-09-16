@@ -7,23 +7,16 @@ const titles = [
     'Flacid Thang',
     'Manic Brain',
     'Bangarang',
-    'Doctor Strange',
-    'Tangerine',
-    'Tha Fukk?',
+    'Kinda Strange',
+    'Tangerine'
 ];
 
-const heading = {
-    about: 'About AR -',
-    goals: 'Goals of AR -',
-    political: 'Political Views -',
-    future: 'Future of AR -'
-}
-
 $(document).ready(function () {
+    $('.year').html(displayYear); // Set year in DOM to full year
+
+    // Random Title | Chance
     var randomTitleAssignmentChance = Math.floor(Math.random() * 3000);
     var randomTitleAssignment = Math.floor(Math.random() * 8);
-
-    // Random Title
     if (randomTitleAssignmentChance == 25) {
         $('.title').html(titles[randomTitleAssignment]);
     } else
@@ -31,8 +24,7 @@ $(document).ready(function () {
             $('.year').html('3000')
         }
 
-    $('.year').html(displayYear);
-
+    // Quick move to content
     $('.move-to-content').click(function (e) {
         e.preventDefault();
         $('html, body, .content').animate({ scrollTop: $(window).height() - 30}, 1000);
@@ -54,12 +46,11 @@ $(document).ready(function () {
                 'position' : 'fixed',
                 'top' : '30px'
             });
+
             $('.clearfix').show();
         }
         else {
-            $('.heading-margin').css({
-                'position': 'unset'
-            });
+            $('.heading-margin').css('position', 'unset');
             $('.clearfix').hide();
         }
     });
@@ -76,7 +67,6 @@ $(document).ready(function () {
             $('#move-down').slideUp(100);
         }
 
-        //>=, not <=
         if (scroll > headerHeight && scroll >= 90) {
             //clearHeader, not clearheader - caps H
             $('header').hide();
@@ -92,5 +82,5 @@ $(document).ready(function () {
             }
         }
 
-    }); //missing );
+    });
 });
