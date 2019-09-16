@@ -12,6 +12,8 @@ Acid Reign is personal image board and _IRC_ for Skwad(TM), the personal and the
 
 ##### License
 This project was licensed under MIT. See [LICENSE.md](license.md) for more details.
+
+LICENSE
 ---
 
 Copyright 2019, AcidReign
