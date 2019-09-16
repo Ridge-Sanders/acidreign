@@ -1,0 +1,19 @@
+{
+  "name": "acidreign",
+  "version": "1.0.0",
+  "description": "Acid Reign - Skwad personal image board.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ridge-Sanders/acidreign.git"
+  },
+  "author": "Ridge-Phi-Sanders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ridge-Sanders/acidreign/issues"
+  },
+  "homepage": "https://github.com/Ridge-Sanders/acidreign#readme"
+}
