@@ -6,13 +6,13 @@ _alpha v1.0.0_ [SemVer]
 Acid Reign is personal image board and _IRC_ for Skwad(TM), the personal and the _impersonal_. The site was created with HTML5, CSS3, JavaScript, Jquery3.4.
 
 ##### Developers / Authors / Contributors
-+ Website Design Programming [&phi;](https://github.com/PhiKappaPsi)
-+ Vector Image Design [&phi;](https://github.com/PhiKappaPsi)
-+ Written Works [Kyodai](https://www.facebook.com/kevin.hagen.3511)
++ Website Design Programming - [&phi;](https://github.com/PhiKappaPsi)
++ Vector Image Design - [&phi;](https://github.com/PhiKappaPsi)
++ Written Works - [Kyodai](https://www.facebook.com/kevin.hagen.3511)
 
----
 ##### License
 This project was licensed under MIT. See [LICENSE.md](license.md) for more details.
+---
 
 Copyright 2019, AcidReign
 
