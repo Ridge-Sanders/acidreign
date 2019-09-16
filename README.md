@@ -1,6 +1,6 @@
 # Acid Reign
 ##### Current Version
-_alpha v1.0.1_ [SemVer]
+_alpha v1.0.2_ [SemVer]
 
 ##### About Acid Reign
 Acid Reign is personal image board and _IRC_ for Skwad(TM), the personal and the _impersonal_. The site was created with HTML5, CSS3, JavaScript, Jquery3.4.
